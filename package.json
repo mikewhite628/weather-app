@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "deploy": "npm run build && gh-pages -d dist",
-    "build": "webpack"
   },
   "keywords": [],
   "author": "",
